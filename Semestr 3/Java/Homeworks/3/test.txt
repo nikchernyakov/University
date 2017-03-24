@@ -1,0 +1,6 @@
+Lolkin, spamer, 10
+Ukolkin, counter, 5
+Retrin, spamer, 9
+Utopkin, spamer, 8
+Leskin, writer, 10
+Kuskin, observer, 2

@@ -1,0 +1,20 @@
+Практические задания:
+Tasks:
+
+1) last -f /var/log/wtmp.1 | grep "pts/" | awk '{print $1}' | sort -u | wc -l
+
+2) last -f /var/log/wtmp.1 | grep "pts/" | awk '{print $3}' | sort -u | wc -l
+
+Enroll:
+
+1) cat /home/enf/enroll | awk '{print $3}' |  grep "\." | wc -l
+
+2) cat /home/enf/enroll | awk '{print $2,$3}' | grep "вна$" | awk '{print $1}' | sort -u | wc -l 
+
+3) cat /home/enf/enroll | grep "Специальность" | awk {'print $2}' | sort -u | wc -l
+3.1 cat /home/enf/enroll | grep "Специальность" | awk -F[:0-9'('] '{print $8}' | sort -u
+
+4) 1)Для макс баллов:
+cat /home/enf/enroll | grep "Конкурс" | awk '{print $5}' | grep -P "[0-9]+" | sort -u | tail -1 
+   2) Для мин баллов:
+cat /home/enf/enroll | grep "Конкурс" | awk '{print $5}' | grep -P "[0-9]+" | sort -r | tail -1 

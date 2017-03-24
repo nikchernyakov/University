@@ -1,0 +1,44 @@
+addMark A3100 Chernyakov Nikita АлГем 5
+addMark A3100 Chernyakov Nikita Матан 2
+addMark A3100 Chernyakov Nikita Матан 3
+addMark A3100 Zamiralov Alex Матан 5
+addMark A3100 Zamiralov Alex Матан 5
+addMark A3130 Niyazova Marina Матан 2
+addMark A3130 Niyazova Marina Физика 2
+listAll
+removeMark A3100 Chernyakov Nikita Матан 2
+removePerson A3130 Niyazova Marina
+addMark A3130 Niyazova Marina Физика 4
+addMark A3101 Kshenin Alex Программирование 3
+addMark A3101 Kshenin Alex Матан 4
+average
+marks Матан
+worstStudent
+
+
+
+int n = 1;
+
+Student stud = new Student(g, s, n);
+stud.getInd();
+stud.ind;
+stud.addMark(
+
+ArrayList<Integer> mas = new ArrrayList<>();
+mas.add(a);
+mas.set(0,b);
+
+boolean[][] mas = new boolean[][] {
+                              {true, true, true},
+                              {false, true},
+                              {true, true, true} );
+
+Student[][] stud = new Student[][] {
+                               {new Student(g,s,n), new Student(g,s,n)
+}
+
+***
+.*.
+***
+
+

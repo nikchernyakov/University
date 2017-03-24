@@ -1,0 +1,58 @@
+реляционная БД - Бд связаннная отношениями между ее таблицами
+документо-ориентированная БД
+MongoBD - позволяет сохранять структуру
+
+key - value (ключ - значение)
+
+
+джей шон - может создавать эти структуры
+json нашел применение в ajax
+ajax - технология передачи скрипта
+например:
+{"office" : "B5"} - создает запись с ключом office и значением B5
+{"office" : ["B5","B4","B3"]}
+{"office" : {"name" : "B5", "floor" : "7"}} -создает три таблицы связанные между собой
+
+XML:
+<office> B5 </office>
+<office>
+	<name> B5 </name>
+	<floor> 7 </floor>
+<office>
+
+атрибуты:
+<office name = "B5" floor = "7" ></office>
+
+ЯЗЫК SQL:
+Формат:
+
+SELECT ... FROM ...
+	WHERE ... ORDER BY
+* - ОЗНАЧАЕТ ВСЕ ПОЛЯ
+` - имя поля ставиться в эти ковычки
+НАПРИМЕР,
+SELECT * FROM name
+
+SELECT date FROM ENPLAY
+	ORDER BY ASC(DESC) /*по возрастанию/убыванию*/
+
+Объединения таблиц:
+SELECT floor.name
+FROM floor, office
+WHERE office.name = "B5"
+AND floor.office_id = office.id /*связали таблицы*/
+
+SELECT office.id FROM office
+WHERE office.name = "B5"  /* LIMIT 1 - выведет одну запись */
+/*это можно записать в */
+... WHERE floor.office_id = (сюда записать)
+
+primary key - первичный ключ (обычно id) (обрабатывается значение)
+unique - уникальное поле
+null - пустая ячейка
+null != null 
+
+node.js работает c DOM (HTML). Представляет их в структурном виде.
+
+Обратить вниамние на CoffeScript заставляет делать хороший код и преобразует его потом в JS
+

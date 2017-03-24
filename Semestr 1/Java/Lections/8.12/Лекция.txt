@@ -1,0 +1,25 @@
+//Интересная структура данных
+Map<String, Map<Integer, ArrayList<Integer>>> map;
+
+ArrayList<Integer> marks = new ArrayList<>();
+marks.add(5);
+Map<Integer,ArrayList<Integer>> allMarks = new HashMap<>();
+allMarks.put(28,marks);
+map.put("Алгебра", allMarks);
+
+/*
+Но все это нужно делить на классы, иначе трудно все воспринимать
+*/
+
+//лучше будет через классы
+Map<String, Student> map;
+Map<Integer, Marks> marks;
+
+Arrays.asList(5,14,124124); // записывает это как лист
+
+
+AtomicInteger // wtf?
+
+//считываем комманду
+String command = scanner.nextLine();
+String [] args = command.split();

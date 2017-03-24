@@ -1,0 +1,27 @@
+Сортировки:
+
+Arrays.sort(mas); // стандартная сортировка
+
+interface Comparable<T> {
+    int compareTo(T obj);
+}
+
+class Student implements Comparable<Student> {
+    //Student сначала нужно задать для него интерфейс
+
+    public int compareTo(Student : obj){...}
+}
+
+//сравнивает два произвольных объекта
+interface Comparator<T> {
+    int compare(T obj1, T obj2);
+}
+
+@FunctionInterface
+
+s.clone() // копию создает
+// класс нужно сначала отметить как клонируемый
+class Student implements Clonable {...
+
+//можно это через запятую писать
+class Student implements Clonable, Comparable<Student>, Serialirable {...

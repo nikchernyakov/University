@@ -1,0 +1,28 @@
+# encoding: UTF-8
+
+require "translit"
+
+logins = []
+names = []
+
+DATA.each_line.map(&:chomp).each {|name| names << Translit.convert(name, :english).downcase}
+
+names.each do |name|
+  name = name.split
+  first_name = name[0]
+  second_name = name[1]
+  login = first_name[0] + second_name[0..[second_name.size - 1, 6].min]
+  number_for_login = logins.count {|elem| login.include? elem.delete "0-9" }.to_s
+  if logins.any? {|element| element == login}
+    login = first_name[0..1] + second_name[0..[second_name.size - 1, 5].min]
+    if logins.any? {|element| element == login}
+      login = first_name[0] + second_name[0..[second_name.size - 1, 6].min - number_for_login.size] + number_for_login
+    end
+  end
+  logins << login
+end 
+
+logins.each {|login| puts "#{login}"}
+
+__END__
+Никита Черняков

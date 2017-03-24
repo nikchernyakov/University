@@ -1,0 +1,174 @@
+INFO: Server was started at time:1477292566935
+Perform Request: Request 1
+res: 363 time: 217
+Perform Request: Request 2
+res: 394 time: 557
+Perform Request: Request 3
+res: 223 time: 293
+Perform Request: Request 4
+res: 179 time: 160
+Didn't have resource for Request 4
+Perform Request: Request 5
+res: 549 time: 516
+Didn't have resource for Request 5
+Perform Request: Request 6
+res: 650 time: 680
+Didn't have resource for Request 6
+Perform Request: Request 7
+res: 361 time: 355
+Didn't have resource for Request 7
+Perform Request: Request 8
+res: 839 time: 589
+Didn't have resource for Request 8
+Perform Request: Request 9
+res: 282 time: 279
+Didn't have resource for Request 9
+INFO: End of Request 1
+Perform Request: Request 10
+res: 26 time: 549
+Perform Request: Request 11
+res: 11 time: 270
+Perform Request: Request 12
+res: 153 time: 38
+Perform Request: Request 13
+res: 179 time: 313
+Perform Request: Request 14
+res: 688 time: 110
+Didn't have resource for Request 14
+INFO: End of Request 12
+INFO: End of Request 3
+Perform Request: Request 15
+res: 514 time: 194
+Didn't have resource for Request 15
+Perform Request: Request 16
+res: 691 time: 427
+Didn't have resource for Request 16
+Perform Request: Request 17
+res: 752 time: 180
+Didn't have resource for Request 17
+Perform Request: Request 18
+res: 397 time: 660
+Didn't have resource for Request 18
+Perform Request: Request 19
+res: 631 time: 112
+Didn't have resource for Request 19
+Perform Request: Request 20
+res: 498 time: 191
+Didn't have resource for Request 20
+Perform Request: Request 21
+res: 890 time: 72
+INFO: End of Request 11
+Didn't have resource for Request 21
+Perform Request: Request 22
+res: 788 time: 146
+INFO: End of Request 2
+Perform Request: Request 23
+res: 920 time: 115
+Didn't have resource for Request 23
+Perform Request: Request 24
+res: 402 time: 104
+Didn't have resource for Request 24
+Perform Request: Request 25
+res: 866 time: 23
+Didn't have resource for Request 25
+INFO: End of Request 13
+Perform Request: Request 26
+res: 937 time: 685
+Didn't have resource for Request 26
+Perform Request: Request 27
+res: 109 time: 149
+Perform Request: Request 28
+res: 984 time: 99
+Didn't have resource for Request 28
+INFO: End of Request 22
+Perform Request: Request 29
+res: 982 time: 211
+Didn't have resource for Request 29
+Perform Request: Request 30
+res: 139 time: 228
+Perform Request: Request 31
+res: 715 time: 480
+INFO: End of Request 10
+Perform Request: Request 32
+res: 203 time: 604
+Didn't have time for Request 32
+Perform Request: Request 33
+res: 386 time: 229
+Didn't have resource for Request 33
+Perform Request: Request 34
+res: 318 time: 112
+Didn't have resource for Request 34
+INFO: End of Request 27
+Perform Request: Request 35
+res: 149 time: 508
+Didn't have resource for Request 35
+Perform Request: Request 36
+res: 847 time: 217
+Didn't have resource for Request 36
+Perform Request: Request 37
+res: 186 time: 41
+Didn't have resource for Request 37
+Perform Request: Request 38
+res: 423 time: 510
+Didn't have time for Request 38
+Perform Request: Request 39
+res: 399 time: 322
+Didn't have resource for Request 39
+Perform Request: Request 40
+res: 350 time: 320
+Didn't have resource for Request 40
+INFO: End of Request 30
+Perform Request: Request 41
+res: 232 time: 373
+Perform Request: Request 42
+res: 460 time: 596
+Didn't have time for Request 42
+Perform Request: Request 43
+res: 517 time: 484
+Didn't have time for Request 43
+Perform Request: Request 44
+res: 949 time: 267
+Didn't have resource for Request 44
+Perform Request: Request 45
+res: 600 time: 214
+Didn't have resource for Request 45
+Perform Request: Request 46
+res: 544 time: 130
+Didn't have resource for Request 46
+Perform Request: Request 47
+res: 704 time: 483
+Didn't have time for Request 47
+Perform Request: Request 48
+res: 135 time: 389
+Didn't have time for Request 48
+Perform Request: Request 49
+res: 816 time: 585
+Didn't have time for Request 49
+INFO: End of Request 31
+Perform Request: Request 50
+res: 952 time: 363
+Perform Request: Request 51
+res: 738 time: 572
+Didn't have time for Request 50
+Didn't have time for Request 51
+Perform Request: Request 52
+res: 457 time: 406
+Didn't have time for Request 52
+Perform Request: Request 53
+res: 13 time: 291
+Didn't have time for Request 53
+Perform Request: Request 54
+res: 493 time: 402
+Perform Request: Request 55
+res: 423 time: 574
+Didn't have time for Request 54
+Didn't have time for Request 55
+Perform Request: Request 56
+res: 155 time: 537
+Didn't have time for Request 56
+Perform Request: Request 57
+res: 488 time: 392
+Didn't have time for Request 57
+INFO: End of Request 41
+INFO: Server was ended!
+All requests: 57  Complete requests: 12
